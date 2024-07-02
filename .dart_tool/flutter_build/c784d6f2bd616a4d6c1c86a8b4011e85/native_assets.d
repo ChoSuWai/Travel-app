@@ -1,0 +1,1 @@
+ F:\\20232\\Graduation\ Research\ 2\\TravelApplication\\Travel-app\\.dart_tool\\flutter_build\\c784d6f2bd616a4d6c1c86a8b4011e85\\native_assets.yaml: 
