@@ -36,7 +36,8 @@ class _MainPageState extends State<MainPage> {
         unselectedItemColor: kBottomNavigationUnSelectedColor,
         selectedFontSize: kTextSmall,
         unselectedFontSize: kTextSmall,
-        showSelectedLabels: true,
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
         backgroundColor: kBackgroundColor,
         type: BottomNavigationBarType.fixed,
         onTap: (selectedIndex) {
@@ -52,22 +53,23 @@ class _MainPageState extends State<MainPage> {
 
   List<BottomNavigationBarItem> _getBottomNavigationBarItems() {
     return [
-      /// Home
+      /// Home Screen
       BottomNavigationBarItem(
-          icon: Image.asset(
-            kHomeIcon,
-            width: kMarginLarge,
-            height: kMarginLarge,
-          ),
-          activeIcon: Image.asset(
-            kHomeIcon,
-            width: kMarginLarge,
-            height: kMarginLarge,
-            color: kPrimaryColor,
-          ),
-          label: kHomeLabel),
+        icon: Image.asset(
+          kHomeIcon,
+          width: kMarginLarge,
+          height: kMarginLarge,
+        ),
+        activeIcon: Image.asset(
+          kHomeIcon,
+          width: kMarginLarge,
+          height: kMarginLarge,
+          color: kPrimaryColor,
+        ),
+        label: kHomeLabel,
+      ),
 
-      /// Add Post
+      /// Add Post Screen
       BottomNavigationBarItem(
           icon: Image.asset(
             kAddPostIcon,
@@ -82,7 +84,7 @@ class _MainPageState extends State<MainPage> {
           ),
           label: kAddPostLabel),
 
-      /// Search
+      /// Search Screen
       BottomNavigationBarItem(
           icon: Image.asset(
             kSearchIcon,
@@ -97,7 +99,7 @@ class _MainPageState extends State<MainPage> {
           ),
           label: kSearchLabel),
 
-      /// Notification
+      /// Notification Screen
       BottomNavigationBarItem(
           icon: Image.asset(
             kNotificationIcon,
@@ -112,7 +114,7 @@ class _MainPageState extends State<MainPage> {
           ),
           label: kNotificationLabel),
 
-      /// Message
+      /// Message Screen
       BottomNavigationBarItem(
           icon: Image.asset(
             kMessageIcon,

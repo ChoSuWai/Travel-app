@@ -20,4 +20,9 @@ const double kTextRegular2x = 16;
 const double kTextRegular3x = 20;
 
 /// App Specific
+const double kSmallProfileImageSize = 40;
+const double kHomeScreenAppBarRightMargin = 18;
 
+const double kTravelPlaceListItemHeight = 178;
+const double kTravelPlaceNameGradientWidth = 89;
+const double kTravelPlaceNameGradientHeight = 27;
