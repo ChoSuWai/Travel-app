@@ -16,8 +16,7 @@ class TravelApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: kInterRegular,
       ),
-      home: const TravelPlaceDetailsPage(),
+      home: const MainPage(),
     );
   }
 }
-

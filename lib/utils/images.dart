@@ -1,6 +1,5 @@
 const kAddPostIcon = "assets/images/AddPost.png";
 const kNotificationIcon = "assets/images/bell.png";
-const kUnselectedFavoriteIcon = "assets/images/Favorite.png";
 const kLocationIcon = "assets/images/location.png";
 const kHomeIcon = "assets/images/HomeIcon.png";
 const kMessageIcon = "assets/images/Message.png";
@@ -9,3 +8,12 @@ const kSearchIcon = "assets/images/Search.png";
 const kNavigationIcon = "assets/images/Vector.png";
 const kSmallProfileImage = "assets/images/Profile.png";
 const kItemViewBackgroundImage = "assets/images/BgImg_HoiAn.png";
+const kWeatherIcon = "assets/images/WeatherIcon.png";
+const kSaveIcon = "assets/images/bookmark.png";
+const kFloatingActionButton = "assets/images/FloatingActionButton.png";
+const kDistanceIcon = "assets/images/distance.png";
+const kLeftArrowIcon = "assets/images/arrow-left-circle.png";
+const kRightArrowIcon = "assets/images/arrow-right-circle.png";
+const kSmallLocationIcon = "assets/images/SmallLocationIcon.png";
+
+const kActivitiesImage = "assets/images/Boat_Hoi_An.png";

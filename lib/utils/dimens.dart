@@ -26,3 +26,10 @@ const double kHomeScreenAppBarRightMargin = 18;
 const double kTravelPlaceListItemHeight = 178;
 const double kTravelPlaceNameGradientWidth = 89;
 const double kTravelPlaceNameGradientHeight = 27;
+
+const double kBannerHeight = 300;
+const double kDotsIndicatorContainerHeight = 265;
+
+const double kActivitiesImageWidth = 150;
+const double kActivitiesImageHeight = 150;
+const double kActivitiesListItemAndTextHeight = 200;

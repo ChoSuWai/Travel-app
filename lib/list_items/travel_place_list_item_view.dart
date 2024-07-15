@@ -59,7 +59,7 @@ class TravelPlaceListItemView extends StatelessWidget {
               alignment: Alignment.topRight,
               child: Icon(Icons.favorite_outline,
               color: Colors.white,
-                size: 32,
+                size: kMarginXLarge,
               ),
             ),
           ),

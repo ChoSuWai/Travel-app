@@ -23,7 +23,6 @@ class HomePage extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-
               /// Navigation Bar Icon
               Image.asset(
                 kNavigationIcon,
@@ -81,7 +80,7 @@ class HomeScreenBodyView extends StatelessWidget {
         const SliverToBoxAdapter(
           child: Padding(
             padding:
-            EdgeInsets.symmetric(horizontal: kHomeScreenAppBarRightMargin),
+                EdgeInsets.symmetric(horizontal: kHomeScreenAppBarRightMargin),
             child: Text(
               "Let's explore...",
               style: TextStyle(
@@ -107,9 +106,11 @@ class HomeScreenBodyView extends StatelessWidget {
               delegate: SliverChildBuilderDelegate((context, index) {
                 return GestureDetector(
                     onTap: () {
-                      Navigator.push(context, MaterialPageRoute(
-                          builder: (context) => const TravelPlaceDetailsPage())
-                          );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  const TravelPlaceDetailsPage()));
                     },
                     child: const TravelPlaceListItemView());
               }, childCount: 10),
