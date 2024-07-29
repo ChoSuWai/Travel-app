@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travel_app/list_items/travel_place_list_item_view.dart';
+import 'package:travel_app/pages/notification_page.dart';
 import 'package:travel_app/pages/travel_place_details_page.dart';
 import 'package:travel_app/utils/colors.dart';
 import 'package:travel_app/utils/images.dart';
@@ -110,7 +111,7 @@ class HomeScreenBodyView extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const TravelPlaceDetailsPage()));
+                                  const NotificationPage()));
                     },
                     child: const TravelPlaceListItemView());
               }, childCount: 10),

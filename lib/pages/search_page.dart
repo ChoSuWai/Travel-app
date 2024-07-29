@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app/pages/notification_page.dart';
 import 'package:travel_app/pages/travel_place_details_page.dart';
 import 'package:travel_app/utils/colors.dart';
 
@@ -87,7 +88,7 @@ class SearchScreenBodyView extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const TravelPlaceDetailsPage()));
+                                  const NotificationPage()));
                     },
                     child: const TravelPlaceListItemView());
               }, childCount: 10),

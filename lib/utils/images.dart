@@ -15,5 +15,6 @@ const kDistanceIcon = "assets/images/distance.png";
 const kLeftArrowIcon = "assets/images/arrow-left-circle.png";
 const kRightArrowIcon = "assets/images/arrow-right-circle.png";
 const kSmallLocationIcon = "assets/images/SmallLocationIcon.png";
-
 const kActivitiesImage = "assets/images/Boat_Hoi_An.png";
+const kSendIcon = "assets/images/send.png";
+const kCloseIcon = "assets/images/x.png";
