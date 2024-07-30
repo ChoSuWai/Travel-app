@@ -10,3 +10,4 @@ const Color kTravelPlaceGradientColor = Color.fromRGBO(255, 255, 255, 0.65);
 const Color kInactiveDotsColor = Color.fromRGBO(255, 255, 255, 0.65);
 
 const Color kAddPostAppBarColor = Color(0xFFE8FBFC);
+const Color kNotificationScreenBackgroundColor = Color(0xFFF8F5F5);
