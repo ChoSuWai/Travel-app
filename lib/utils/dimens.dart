@@ -35,3 +35,4 @@ const double kActivitiesImageHeight = 150;
 const double kActivitiesListItemAndTextHeight = 200;
 
 const double kNotificationItemHeight = 71;
+const double kMessageItemHeight = 59;

@@ -24,9 +24,6 @@ class NotificationListItemView extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
-          const SizedBox(
-            width: kMarginMedium3,
-          ),
           const Text(
             "Candy ",
             style: TextStyle(
